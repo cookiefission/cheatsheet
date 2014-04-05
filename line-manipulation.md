@@ -18,9 +18,8 @@ Join every other line of a selection together
 :%norm J
 ```
 
-Auto-magically indent
+Auto-magically indent: `=`
 ---------------------
-`=`
 
 examples:
 * `gg=G` indents the entire file correctly
