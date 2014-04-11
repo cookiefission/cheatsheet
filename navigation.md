@@ -1,5 +1,6 @@
 Navigation
 ==========
 
-Highlight current word : `gd`
+Go to local declaration : `gd`
+Go to global declaration : `gD`
 
