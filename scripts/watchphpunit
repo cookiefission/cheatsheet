@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+if ! hash inotifywait 2>/dev/null; then
+    echo "inotify-tools must be installed."
+    read -p "Do you want to install it? y/n" yn
+    case $yn in
+        [Yy]* ) sudo apt-get install inotify-tools;;
+        * ) echo "Can not continue without inotifywait"; exit 1;;
+    esac
+fi
+
+if [ ! -d "./CG" ]; then
+    echo "CG directory must exist"; exit 1;
+fi
+
+if [ ! -d "./tests" ]; then
+    echo "tests directory must exist"; exit 1;
+fi
+
+while true; do
+    vendor/bin/phpunit "$@"
+    inotifywait -q -r ./CG ./tests -e modify,close_write,moved_to,move,create,delete
+done
