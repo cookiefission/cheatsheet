@@ -45,4 +45,4 @@ Command     | Effect
 `dd D`      |Delete current line, to the end of the line
 `J gJ`      |Join current line with next, without space
 `:rd<CR>`   |Delete range _r_ lines
-`rdx<CR>    |Delete range _r_ lines into register _x_
+`:rdx<CR>`   |Delete range _r_ lines into register _x_
