@@ -10,9 +10,8 @@ Command     | Effect
 `( )`       |Beginning of previous, next sentence
 `0 gm`      |Beginning, middle of line
 `^ $`       |First, last character of line
-`_n_G _n_gg`|Line _n_, default last, first
-`_n_%`      |Percentage _n_ of the file
-`_n_|`      |Column _n_ of current line
+`nG ngg`    |Line _n_, default last, first
+`n%`        |Percentage _n_ of the file
 `%`         |Match of next brace, bracket, comment, #define
-`_n_H _n_L` |Line n from start, bottom of window
+`nH nL`     |Line n from start, bottom of window
 `M`         |Middle line of window
