@@ -61,6 +61,17 @@ Command     | Effect
 `^Oc`       | Execute _c_ in temporary command mode
 `^X^E ^X^Y` | Scroll up, down
 
+## Copying
+Command     | Effect
+------------|---------------------------
+`"x`        | Use register _x_ for next delete, yank, put
+`:reg<CR>`  | Show the content of all registers
+`:reg x<CR>`| Show the content of register x
+`ym`        | Yank the text of movement _m_
+`yy` or `Y` | Yank current line into register
+`p P`       | Put register after, before cursor
+`]p [p`     | Like `p P` with indent adjusted
+`gp gP`     | Like `p P` leaving cursor after new text
 
 
 
