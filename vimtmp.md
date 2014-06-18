@@ -46,3 +46,34 @@ Command     | Effect
 `J gJ`      |Join current line with next, without space
 `:rd<CR>`   |Delete range _r_ lines
 `:rdx<CR>`   |Delete range _r_ lines into register _x_
+
+## Insert mode
+Command     | Effect
+------------|---------------------------
+`^Vc ^Vn`   | Insert char _c_ literally, decimal value _n_
+`^A`        | Insert previously inserted text
+`^@`        | Same as `^A` and exit insert mode
+`^Rx ^R^Rx` | Insert contends of register _x_, literally
+`^N` `^P`   | Text completion before, after cursor
+`^W`        | Delete word before cursor
+`^U`        | Delete all inserted character in current line
+`^D ^T`     | Shift left, right one shift width
+`^Oc`       | Execute _c_ in temporary command mode
+`^X^E ^X^Y` | Scroll up, down
+
+## Copying
+Command     | Effect
+------------|---------------------------
+`"x`        | Use register _x_ for next delete, yank, put
+`:reg<CR>`  | Show the content of all registers
+`:reg x<CR>`| Show the content of register x
+`ym`        | Yank the text of movement _m_
+`yy` or `Y` | Yank current line into register
+`p P`       | Put register after, before cursor
+`]p [p`     | Like `p P` with indent adjusted
+`gp gP`     | Like `p P` leaving cursor after new text
+
+
+
+
+
