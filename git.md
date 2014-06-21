@@ -5,3 +5,5 @@ Show current Git branch: `git rev-parse --abbrev-ref HEAD` - useful for bash scr
 Checkout previous Git branch: `git checkout -`
 
 Merge in previous Git branch: `git merge -`
+
+Get number of commits for repository: `git rev-list HEAD --count`
