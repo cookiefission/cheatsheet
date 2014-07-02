@@ -21,3 +21,5 @@ List commands you use most often: `history | awk '{a[$2]++}END{for(i in a){print
 List top ten processes by memory usage: `ps aux | sort -nk +4 | tail`
 
 Push current directory onto stack to come back to, instead of `cd`: `pushd`, `popd`
+
+Make script of last run command: `echo "!!" > foo.sh`
