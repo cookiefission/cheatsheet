@@ -15,3 +15,5 @@ Set up http server for current directory: `python -m SimpleHTTPServer`
 Open half-typed command in `$EDITOR`: `<Ctrl>-x e`
 
 Cut partial command, do something else, and paste it back in: `<ctrl+u> [...] <ctrl+y>`
+
+List commands you use most often: `history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head`
