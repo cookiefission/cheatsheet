@@ -11,3 +11,5 @@ Close current terminal session: `<Ctrl>-d`
 Run last command as root: `sudo !!`
 
 Set up http server for current directory: `python -m SimpleHTTPServer`
+
+Open half-typed command in `$EDITOR`: `<Ctrl>-x e`
