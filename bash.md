@@ -17,3 +17,5 @@ Open half-typed command in `$EDITOR`: `<Ctrl>-x e`
 Cut partial command, do something else, and paste it back in: `<ctrl+u> [...] <ctrl+y>`
 
 List commands you use most often: `history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head`
+
+List top ten processes by memory usage: `ps aux | sort -nk +4 | tail`
