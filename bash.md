@@ -27,3 +27,5 @@ Make script of last run command: `echo "!!" > foo.sh`
 Show processes using internet: `lsof -P -i -n`
 
 Open output of a command in vim: `tail /some/file | vim -`
+
+Remove blank lines from a file and save to other file: `grep . filename > newfilename`
