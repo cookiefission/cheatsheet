@@ -73,7 +73,7 @@ Command     | Effect
 `]p [p`     | Like `p P` with indent adjusted
 `gp gP`     | Like `p P` leaving cursor after new text
 
-
-
-
-
+## Miscellaneous
+Command     | Effect
+------------|---------------------------
+`:<C-R><C-W>`| Bring current word into ex command
