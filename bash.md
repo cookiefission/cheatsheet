@@ -19,3 +19,5 @@ Cut partial command, do something else, and paste it back in: `<ctrl+u> [...] <c
 List commands you use most often: `history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head`
 
 List top ten processes by memory usage: `ps aux | sort -nk +4 | tail`
+
+Push current directory onto stack to come back to, instead of `cd`: `pushd`, `popd`
