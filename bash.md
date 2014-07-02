@@ -7,3 +7,5 @@ Change ownership of FILE to current user: `sudo chown -R $USER FILE`
 Clear screen: `<Ctrl>-l`
 
 Close current terminal session: `<Ctrl>-d`
+
+Run last command as root: `sudo !!`
