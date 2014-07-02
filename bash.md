@@ -23,3 +23,5 @@ List top ten processes by memory usage: `ps aux | sort -nk +4 | tail`
 Push current directory onto stack to come back to, instead of `cd`: `pushd`, `popd`
 
 Make script of last run command: `echo "!!" > foo.sh`
+
+Show processes using internet: `lsof -P -i -n`
