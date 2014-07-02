@@ -25,3 +25,5 @@ Push current directory onto stack to come back to, instead of `cd`: `pushd`, `po
 Make script of last run command: `echo "!!" > foo.sh`
 
 Show processes using internet: `lsof -P -i -n`
+
+Open output of a command in vim: `tail /some/file | vim -`
