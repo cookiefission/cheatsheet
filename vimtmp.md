@@ -74,7 +74,7 @@ Command     | Effect
 `gp gP`     | Like `p P` leaving cursor after new text
 
 ## Miscellaneous
-Command     | Effect
-------------|---------------------------
-`:<C-R><C-W>`| Bring current word into ex command
-`cmd | vim -`| Open output of `cmd` in vim buffer (from commandline)
+
+`:<C-R><C-W>`:  Bring current word into ex command
+
+`cmd | vim -`: Open output of `cmd` in vim buffer (from commandline)
