@@ -77,3 +77,4 @@ Command     | Effect
 Command     | Effect
 ------------|---------------------------
 `:<C-R><C-W>`| Bring current word into ex command
+`cmd | vim -`| Open output of `cmd` in vim buffer (from commandline)
