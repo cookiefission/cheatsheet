@@ -130,6 +130,21 @@ Command     | Effect
 `[# ]#`     | Unclosed `#if, #else, #endif` backward, forward
 `[* ]*`     | Start, end of _/* */_ backward, forward
 
+## Search & Substitution
+Command     | Effect
+------------|----------------------------
+`/s<CR>`    | Search forward for _s_
+`?s<CR>`    | Search backward for _s_
+`/s/o<CR>`  | Search forward for _s_ with offset _o_
+`?s?o<CR>`  | Search backward for _s_ with offset _o_
+`n`         | Repeat last search forward
+`N`         | Repeat last search backward
+`# *`       | Search backward, forward for word under cursor
+`g# g*`     | As above but also find partial matches
+`gd gD`     | Local, global definition of symbol under cursor
+`:rs/f/t/x` | Substitute _f_ by _t_ in range _r_. _x_: _g_ - all occurences, _c_ - confirm changes
+`:rs x<CR>` | Repeat last subsition with new _r_ & _x_
+
 ## Miscellaneous
 
 `:<C-R><C-W>`:  Bring current word into ex command
