@@ -73,6 +73,20 @@ Command     | Effect
 `]p [p`     | Like `p P` with indent adjusted
 `gp gP`     | Like `p P` leaving cursor after new text
 
+## Advanced Insertion
+Command     | Effect
+------------|----------------------------
+`g?m`       | Perform rot13 encoding on movement _m_
+`n^A n^X`   | _+n_, _-n_ to number under cursor
+`gqm`       | Format lines of movement _m_ to fixed width
+`:rce w<CR>`| Center lines in range _r_ to width _w_
+`:rle i<CR>`| Left align lines in range _r_ with indent _i_
+`:rri w<CR>`| Right alight lines in range _r_ to width _w_
+`!mc<CR>`   | Filter lines of movement _m_ through command _c_
+`n!!<CR>`   | Filter _n_ lines through command _c_
+`:r!c<CR>`  | Filter range _r_ lines through command _c_
+
+
 ## Miscellaneous
 
 `:<C-R><C-W>`:  Bring current word into ex command
