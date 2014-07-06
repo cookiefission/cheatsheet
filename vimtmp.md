@@ -109,6 +109,26 @@ Command     | Effect
 `:@c<CR>`   | Execute register _c_ as an `@` command
 `:rg/p/c`   | Execute ex command _c_ on range _r_ where pattern matches _p_
 
+## Complex Movement
+Command     | Effect
+------------|----------------------------
+`- +`       | Line up, down on first non blank character
+`B W`       | Space-separated word left, right
+`gE E`      | End of space-separated word left, right
+`n_`        | Down _n-1_ line on first non-blank character
+`g0`        | Beginning of screen line
+`g^ g$`     | First, last character of screen line
+`gk gj`     | Screen line up, down
+`fc Fc`     | Next, previous occurence of character _c_
+`tc Tc`     | Before next, previous occurence of character _c_
+`; ,`       | Repeat last _fFtT_, in opposite direction
+`[[ ]]`     | Start of section backward, forward
+`[] ][`     | End of section backward, forward
+`[( ])`     | Unclosed _(, )_ backward, forward
+`[{ ]}`     | Unclosed _{, }_ backward, forward
+`[m ]m`     | Start of backward, forward _Java_ method
+`[# ]#`     | Unclosed `#if, #else, #endif` backward, forward
+`[* ]*`     | Start, end of _/* */_ backward, forward
 
 ## Miscellaneous
 
