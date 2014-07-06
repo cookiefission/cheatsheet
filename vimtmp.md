@@ -96,6 +96,19 @@ Command     | Effect
 `aq as ap`  | Select a word, as sentence, a paragraph
 `ab aB`     | Select a block `( )`, a block `{ }`
 
+## Undoing, Repeating & Registers
+Command     | Effect
+------------|----------------------------
+`u U`       | Undo last command, restore last changed line
+`. ^R`      | Repeat least changes, redo last undo
+`n.`        | Repeat last changes with count replaced by _n_
+`qc qC`     | Record, append typed characters in register _c_
+`q`         | Stop recording
+`@c`        | Execute the content of register _c_
+`@@`        | Repeat previous `@` command
+`:@c<CR>`   | Execute register _c_ as an `@` command
+`:rg/p/c`   | Execute ex command _c_ on range _r_ where pattern matches _p_
+
 
 ## Miscellaneous
 
