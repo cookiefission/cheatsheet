@@ -87,6 +87,16 @@ Command     | Effect
 `:r!c<CR>`  | Filter range _r_ lines through command _c_
 
 
+## Visual Mode
+Command     | Effect
+------------|----------------------------
+`v V ^V`    | Start/stop highlighting characters, lines, block
+`o`         | Exchange cursor position with start of highlighting
+`gv`        | Reselect previous selection
+`aq as ap`  | Select a word, as sentence, a paragraph
+`ab aB`     | Select a block `( )`, a block `{ }`
+
+
 ## Miscellaneous
 
 `:<C-R><C-W>`:  Bring current word into ex command
