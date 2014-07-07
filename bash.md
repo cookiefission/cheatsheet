@@ -12,7 +12,7 @@ Run last command as root: `sudo !!`
 
 Set up http server for current directory: `python -m SimpleHTTPServer`
 
-Open half-typed command in `$EDITOR`: `<Ctrl>-x e`
+Open half-typed command in `$EDITOR`: `<Ctrl>-x <Ctrl>-e`
 
 Cut partial command, do something else, and paste it back in: `<ctrl+u> [...] <ctrl+y>`
 
