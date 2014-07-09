@@ -150,3 +150,5 @@ Command     | Effect
 `:<C-R><C-W>`:  Bring current word into ex command
 
 `cmd | vim -`: Open output of `cmd` in vim buffer (from commandline)
+
+`<C-w> R`: Swap top/bottom or left/right split
