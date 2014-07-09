@@ -29,3 +29,5 @@ Show processes using internet: `lsof -P -i -n`
 Open output of a command in vim: `tail /some/file | vim -`
 
 Remove blank lines from a file and save to other file: `grep . filename > newfilename`
+
+View a markdown file in man page style: `pandoc -s -f markdown -t man foo.md | man -l -`
