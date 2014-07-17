@@ -21,3 +21,13 @@ Create a new window: `tmux new window` or `prefix + c`
 Move to window based on index: `tmux select-window -t :0-9` or `prefix + 0-9`
 
 Rename current window: `tmux rename-window` or `prefix + ,`
+
+## Panes (splits)
+
+Split window vertically: `tmux split-window` or `prefix + "` "
+
+Split window horizontally; `tmux split-window -h` or `prefix + %`
+
+Swap panes with another in specified direction: `tmux swap-pane -[ULDR]` or `prefix + { or }`
+
+Select the next pane in the specified direction: `tmux select-pane -[ULDR]` or `prefix
