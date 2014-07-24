@@ -9,8 +9,8 @@ if ! hash inotifywait 2>/dev/null; then
     esac
 fi
 
-if [ ! -d "./CG" ]; then
-    echo "CG directory must exist"; exit 1;
+if [ ! -d "./src" ]; then
+    echo "src directory must exist"; exit 1;
 fi
 
 if [ ! -d "./tests" ]; then
@@ -19,5 +19,5 @@ fi
 
 while true; do
     vendor/bin/phpunit "$@"
-    inotifywait -q -r ./CG ./tests -e modify,close_write,moved_to,move,create,delete
+    inotifywait -q -r ./src ./tests -e modify,close_write,moved_to,move,create,delete
 done
