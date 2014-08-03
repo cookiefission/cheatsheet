@@ -152,3 +152,5 @@ Command     | Effect
 `cmd | vim -`: Open output of `cmd` in vim buffer (from commandline)
 
 `<C-w> R`: Swap top/bottom or left/right split
+
+`vim -p file 1 file2`: Open file1 and file2 in tabs in vim
