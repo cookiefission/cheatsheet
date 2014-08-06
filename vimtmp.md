@@ -152,3 +152,7 @@ Command     | Effect
 `cmd | vim -`: Open output of `cmd` in vim buffer (from commandline)
 
 `<C-w> R`: Swap top/bottom or left/right split
+
+`<C-r>r`: In insert mode, insert contents of register r
+jndfkjnfd
+
