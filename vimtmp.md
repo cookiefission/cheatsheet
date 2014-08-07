@@ -154,5 +154,5 @@ Command     | Effect
 `<C-w> R`: Swap top/bottom or left/right split
 
 `<C-r>r`: In insert mode, insert contents of register r
-jndfkjnfd
 
+`vim -p file 1 file2`: Open file1 and file2 in tabs in vim
