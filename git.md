@@ -7,3 +7,5 @@ Checkout previous Git branch: `git checkout -`
 Merge in previous Git branch: `git merge -`
 
 Get number of commits for repository: `git rev-list HEAD --count`
+
+Get a list of local and remote branchs: `git for-each-ref --format='%(refname:short)'`
