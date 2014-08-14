@@ -20,6 +20,10 @@ Create a new window: `tmux new window` or `prefix + c`
 
 Move to window based on index: `tmux select-window -t :0-9` or `prefix + 0-9`
 
+Next window: `prefix n`
+
+Previous window: `prefix p`
+
 Rename current window: `tmux rename-window` or `prefix + ,`
 
 ## Panes (splits)
