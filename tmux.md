@@ -26,6 +26,8 @@ Previous window: `prefix p`
 
 Rename current window: `tmux rename-window` or `prefix + ,`
 
+Renumber current window: `tmux move-window` or `prefix + .`
+
 ## Panes (splits)
 
 Split window vertically: `tmux split-window` or `prefix + "` "
