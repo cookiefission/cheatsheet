@@ -33,3 +33,5 @@ Remove blank lines from a file and save to other file: `grep . filename > newfil
 View a markdown file in man page style: `pandoc -s -f markdown -t man foo.md | man -l -`
 
 Switch the 2 characters before cursor: `<Ctrl>-t`
+
+Display 256 colours with their numbers: `for i in {0..255}; do printf "\x1b[38;5;${i}mcolour${i}\n"`
