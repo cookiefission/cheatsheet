@@ -37,3 +37,5 @@ Split window horizontally; `tmux split-window -h` or `prefix + %`
 Swap panes with another in specified direction: `tmux swap-pane -[ULDR]` or `prefix + { or }`
 
 Select the next pane in the specified direction: `tmux select-pane -[ULDR]`
+
+Toggle maximised pane: `tmux resize-pane -Z` or `prefix + z`
