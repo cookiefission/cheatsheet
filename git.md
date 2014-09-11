@@ -13,3 +13,5 @@ Get a list of local and remote branchs: `git for-each-ref --format='%(refname:sh
 View commits different on branches: `git log <branch1>..<branch2>`
 
 As above but in easier to parse format: `git log <branch1>..<branch2> --oneline`
+
+List number of commits against author: `git shortlog -sn`
