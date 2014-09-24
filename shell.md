@@ -26,4 +26,4 @@ View a markdown file in man page style: `pandoc -s -f markdown -t man foo.md | m
 
 Set up http server for current directory: `python -m SimpleHTTPServer`
 
-Set up in-memory filesystem for <dir> with memory <size> MB: `mount -t tmpfs -o size=<size>m tmpfs <dir>`
+Set up in-memory filesystem for \<dir> with memory <size> MB: `mount -t tmpfs -o size=<size>m tmpfs <dir>`
