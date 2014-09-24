@@ -25,3 +25,5 @@ Remove blank lines from a file and save to other file: `grep . filename > newfil
 View a markdown file in man page style: `pandoc -s -f markdown -t man foo.md | man -l -`
 
 Set up http server for current directory: `python -m SimpleHTTPServer`
+
+Set up in-memory filesystem for <dir> with memory <size> MB: `mount -t tmpfs -o size=<size>m tmpfs <dir>`
