@@ -1,12 +1,17 @@
 <?php
 class Foo
 {
-    public function currentClass()
+    public function getClassThis()
     {
         echo get_class($this);
     }
 
-    public function declaredClass()
+    public function getClassNull()
+    {
+        echo get_class();
+    }
+
+    public function classConstant()
     {
         echo __CLASS__;
     }
@@ -15,5 +20,6 @@ class Foo
 class Bar extends Foo {}
 
 $bar = new Bar();
-$bar->declaredClass();
-$bar->currentClass();
+$bar->classConstant();
+$bar->getClassThis();
+$bar->getClassNull();
