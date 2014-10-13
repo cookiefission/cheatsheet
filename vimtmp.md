@@ -156,3 +156,5 @@ Command     | Effect
 `<C-r>r`: In insert mode, insert contents of register r
 
 `vim -p file 1 file2`: Open file1 and file2 in tabs in vim
+
+`:%!bash`: Filter each line of buffer as a bash command, replacing line with it's output
