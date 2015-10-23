@@ -3,6 +3,7 @@
 ## Ruby
 
 [A deep dive into the Ruby object model](https://www.youtube.com/watch?v=by5fFOBhtPQ)
+
 [Refactoring / Gilded Rose kata](https://www.youtube.com/watch?v=8bZh5LMaSmE)
 
 ## Testing
