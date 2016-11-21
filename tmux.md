@@ -1,7 +1,5 @@
 # Tmux
 
-I may never get round to switching to tmux but heres a few commands if and when
-
 ## Sessions
 
 New session : `tmux new -s session_name`
